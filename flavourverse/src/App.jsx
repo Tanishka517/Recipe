@@ -1,11 +1,12 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import Home from './pages/Home';
+// Swap BrowserRouter out for HashRouter
+import { HashRouter, Routes, Route, Link } from 'react-router-dom';
+import Home from './pages/home';
 import RecipeDetails from './pages/RecipeDetails';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="bg-[#4a2c11] min-h-screen font-sans pb-12 select-none">
         
         {/* Top Navbar Configuration */}
@@ -22,6 +23,6 @@ export default function App() {
         </Routes>
 
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
