@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* You can keep a default fallback for the body here if you want, 
+   but do NOT use the * selector */
+body {
+  background-color: #4a2c11;
+  color: #fdf6e2;
+  margin: 0;
+  font-family: sans-serif;
+}
